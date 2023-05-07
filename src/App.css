@@ -1,0 +1,171 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.dvAlign
+{
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center !important;
+  display: flex;
+}
+
+.dv1{
+  max-width: 100%;
+    width: 60%;
+    height: 60%;
+    background-color: #c8c7c724;
+    border:2px solid red;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.inpt{
+  border: 1px solid red;
+    height: 40px;
+    max-width:100%;
+    border-radius: 15px;
+    margin: 20px;
+    text-align: center;
+    justify-content: center !important;
+}
+.inpt2{
+  border: 1px solid red;
+    height: 40px;
+    max-width:100%;
+    border-radius: 15px;
+    margin: 20px;
+    margin-left: 27px;
+    text-align: center;
+    justify-content: center !important;
+}
+
+.lbl{
+  font-weight: bold;
+}
+.btn2{
+  margin-right: 20px;
+}
+.my-custom-scrollbar {
+  position: relative;
+  height: 200px;
+  overflow: auto;
+
+  }
+  .table-wrapper-scroll-y {
+  display: block;
+ 
+  }
+  .logout{
+    position: absolute;
+    right:20px;
+    top:50px
+
+  }
+  .blur{
+    margin-top: -2710px;
+    transition: opacity 100ms ease 0s;
+    /* opacity: 0; */
+    z-index: 1600;
+    background-color: rgba(111, 126, 140, 0.2);
+    backdrop-filter: blur(4px);
+    height:2800px;
+    /* height: 100vh; */
+   
+     
+  }
+  .close{
+    z-index: 100000;
+    height: 50px;
+    max-width: 100%;
+    /* margin-top: 43px; */
+    /* margin-right: 50px; */
+    border-radius: 10px;
+    border: 2px solid red;
+    position: absolute;
+    right: 28px;
+    top: 10px;
+   } 
+   .email{
+   height:50px;
+   border-radius:15px;
+   width:300px;
+   text-align:center;
+   max-width:"100%"
+   }
+   .email2{
+    height:50px;
+    border-radius:15px;
+    width:300px;
+    /* border:2px solid red; */
+    text-align:center;
+    max-width:"100%";
+    color:red
+    /* background-color: red; */
+    }
+  
+
+
+
+@media only screen and (max-width: 1200px) {
+  .dv1{
+    width:100%;
+  }
+  .lbl{
+    display: flex;
+    text-align: center;
+    justify-content: center !important;
+}
+.tbl{
+  width:99%;  
+}
+}
+
+/* .dv2{ */
+  /* margin:10px; */
+  /* width:"20%",
+  height:"500px",
+  display:"inline-block"
+  ,backgroundColor:""
+  ,border:"2px solid red"
+  ,borderRadius:"20px" */
+  
+
+
+/* } */
+
